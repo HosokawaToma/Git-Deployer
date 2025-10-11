@@ -1,0 +1,18 @@
+# Tracked Repositories
+repository:
+  path: "./tracked_repositories/" # Local repository path.
+  branch: "main"                  # Tracked branch.
+
+# Commands to run when updating
+commands:
+  # Command to stop the program
+  - "docker compose down"
+  # Command to update dependencies
+  - "docker compose build"
+  # Command to start the program
+  - "docker compose up -d"
+
+# Tracked Settings
+settings:
+  interval_seconds: 600        # Interval to check for updates (seconds).
+  log_file_path: "./logs/.log" # Log file path.
