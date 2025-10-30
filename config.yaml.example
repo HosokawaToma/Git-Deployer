@@ -15,4 +15,3 @@ commands:
 # Tracked Settings
 settings:
   interval_seconds: 600        # Interval to check for updates (seconds).
-  log_file_path: "./logs/.log" # Log file path.
